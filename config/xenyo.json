@@ -1,0 +1,15 @@
+{
+    "name": "xenyo/packages",
+    "homepage": "http://packages.xenyo.net",
+    "require-all": true,
+    "output-dir": "web",
+    "archive": {
+        "directory": "dist"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/xenyo/uni_contrib_essentials"
+        }
+    ]
+}
