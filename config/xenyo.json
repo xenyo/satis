@@ -9,7 +9,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://gitlab.com/xenyo/uni_contrib_essentials"
+            "url": "https://gitlab.com/xenyo/uni_essential_modules"
         }
     ]
 }
