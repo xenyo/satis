@@ -9,11 +9,15 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://gitlab.com/xenyo/uni_essential_modules"
+            "url": "https://gitlab.com/xenyo/uni_essentials"
         },
         {
             "type": "vcs",
             "url": "https://gitlab.com/xenyo/uni_base"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/xenyo/uni_devops"
         }
     ]
 }
