@@ -18,6 +18,10 @@
         {
             "type": "vcs",
             "url": "https://gitlab.com/xenyo/uni_devops"
+        },
+        {
+            "type": "vcs",
+            "url": "https://gitlab.com/xenyo/uni_build"
         }
     ]
 }
