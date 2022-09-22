@@ -1,6 +1,6 @@
 {
     "name": "xenyo/packages",
-    "homepage": "http://packages.xenyo.net",
+    "homepage": "https://packages.xenyo.net",
     "require-all": true,
     "output-dir": "web",
     "archive": {
@@ -10,19 +10,19 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://gitlab.com/xenyo/uni_essentials"
+            "url": "https://github.com/xenyo/uni_essentials"
         },
         {
             "type": "vcs",
-            "url": "https://gitlab.com/xenyo/uni_base"
+            "url": "https://github.com/xenyo/uni_base"
         },
         {
             "type": "vcs",
-            "url": "https://gitlab.com/xenyo/uni_devops"
+            "url": "https://github.com/xenyo/uni_devops"
         },
         {
             "type": "vcs",
-            "url": "https://gitlab.com/xenyo/uni_build"
+            "url": "https://github.com/xenyo/uni_build"
         }
     ]
 }
