@@ -3,7 +3,7 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "start": "node -r dotenv/config server.js",
+    "start": "node -r dotenv/config server.js | pino-pretty",
     "watch": "nodemon -r dotenv/config server.js | pino-pretty"
   },
   "dependencies": {

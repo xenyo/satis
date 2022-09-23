@@ -13,16 +13,21 @@ queue.process(async job => {
   logger.info(`Processing ${job.data.id}`);
   const { name, url } = job.data.payload.repository;
   const parts = ["cd .. && bin/satis build"];
-  if (name !== "satis") {
+  if (name !== "satis" && !job.data.payload.deleted) {
     parts.push(`--repository-url ${sanitizeUrl(url)}`);
   }
   const command = parts.join(' ');
   logger.info(command);
   return new Promise((resolve, reject) => {
     exec(command, (error, stdout, stderr) => {
-      if (error || stderr) logger.error(`${job.data.id} failed`);
-      if (error) return reject(error);
-      if (stderr) return reject(stderr);
+      if (error) {
+        logger.error(JSON.stringify(error));
+        return reject(error);
+      }
+      if (stderr) {
+	logger.error(stderr);
+        return reject(stderr);
+      }
       logger.info(`${job.data.id} succeeded`);
       resolve(stdout);
     });
@@ -38,3 +43,5 @@ webhooks.on("push", event => {
   queue.add(event);
 });
 http.createServer(createNodeMiddleware(webhooks)).listen(3000);
+logger.info("Listening for requests on port 3000");
+
