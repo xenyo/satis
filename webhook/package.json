@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node -r dotenv/config server.js",
+    "watch": "nodemon -r dotenv/config server.js | pino-pretty"
+  },
+  "dependencies": {
+    "@braintree/sanitize-url": "^6.0.0",
+    "@octokit/webhooks": "^10.1.5",
+    "bull": "^4.9.0",
+    "dotenv": "^16.0.2",
+    "pino": "^8.6.0",
+    "pino-pretty": "^9.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
