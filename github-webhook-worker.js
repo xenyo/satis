@@ -6,7 +6,7 @@ const { name, url } = event.payload.repository;
 let command = "";
 
 if (name === "satis") {
-  command = "git diff HEAD --exit-code && bin/satis build";
+  command = "git diff HEAD --exit-code && git pull && bin/satis build";
 } else if (event.payload.deleted) {
   command = "bin/satis build";
 } else {
