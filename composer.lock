@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "cfba03a4ca72a7a3d4cf09743790de3e",
+    "content-hash": "e52078b776400d74379481eb384be9c5",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -2155,6 +2155,37 @@
                 }
             ],
             "time": "2022-08-12T06:47:24+00:00"
+        },
+        {
+            "name": "xenyo/github-webhook-deploy",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xenyo/github-webhook-deploy.git",
+                "reference": "a17cbfeeedf816d9c7209ed4d0393b7324353510"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xenyo/github-webhook-deploy/zipball/a17cbfeeedf816d9c7209ed4d0393b7324353510",
+                "reference": "a17cbfeeedf816d9c7209ed4d0393b7324353510",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Parkle Lee",
+                    "email": "parkle.lee@xenyo.com"
+                }
+            ],
+            "support": {
+                "issues": "https://github.com/xenyo/github-webhook-deploy/issues",
+                "source": "https://github.com/xenyo/github-webhook-deploy/tree/1.0"
+            },
+            "time": "2022-09-26T09:16:48+00:00"
         }
     ],
     "packages-dev": [
@@ -3950,5 +3981,5 @@
     "platform-overrides": {
         "php": "7.4.28"
     },
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
