@@ -16,7 +16,7 @@ log.setLevel(process.env.GITHUB_WEBHOOKS_LOG_LEVEL || "INFO");
 
 // Set up queue
 const queue = fastq((command, cb) => {
-    log.debug(command);
+    log.info(command);
     exec(command, (error, stdout, stderr) => {
         if (error) {
             log.error(error);
