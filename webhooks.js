@@ -12,7 +12,8 @@ const { Webhooks, createNodeMiddleware } = require("@octokit/webhooks");
 dotenv.config();
 
 // Set up loglevel
-log.setLevel(process.env.GITHUB_WEBHOOKS_LOG_LEVEL || "INFO");
+if (process.env.GITHUB_WEBHOOKS_LOG_LEVEL)
+    log.setLevel(process.env.GITHUB_WEBHOOKS_LOG_LEVEL);
 
 // Set up queue
 const queue = fastq((command, cb) => {
