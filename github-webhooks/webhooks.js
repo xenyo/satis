@@ -1,6 +1,7 @@
 // Import Node.js modules
 const http = require("http");
 const { exec } = require("child_process");
+const path = require("path");
 
 // Import npm modules
 const dotenv = require("dotenv");
@@ -18,7 +19,9 @@ log.setLevel(process.env.GITHUB_WEBHOOKS_LOG_LEVEL);
 // Set up queue
 const queue = fastq((command, cb) => {
   log.info(command);
-  exec(command, (error, stdout, stderr) => {
+  exec(command, {
+    cwd: path.resolve(process.cwd(), "../"),
+  }, (error, stdout, stderr) => {
     if (error) {
       log.error(error);
       return cb(error);
@@ -55,4 +58,4 @@ webhooks.on("push", (event) => {
 // Start http server
 const port = process.env.GITHUB_WEBHOOKS_PORT || 3000;
 http.createServer(createNodeMiddleware(webhooks)).listen(port);
-log.info(`Listening for requests to /api/webhooks/github on port ${port}`);
+log.info(`Listening for requests to /api/github/webhooks on port ${port}`);
