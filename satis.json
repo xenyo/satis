@@ -31,6 +31,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/xenyo/eduhk_base"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xenyo/fontawesome"
         }
     ]
 }
