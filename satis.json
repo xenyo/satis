@@ -10,7 +10,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/xenyo/uni_essentials"
+            "url": "https://github.com/xenyo/uni_features"
         },
         {
             "type": "vcs",
