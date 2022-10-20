@@ -35,6 +35,14 @@
         {
             "type": "vcs",
             "url": "https://github.com/xenyo/fontawesome"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xenyo/uni_theme_template"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xenyo/uni_module_template"
         }
     ]
 }
