@@ -35,7 +35,7 @@
         ]
     },
     "dependencies": {
-        "github-webhooks-exec": "^1.2.0",
+        "github-webhooks-exec": "^1.2.1",
         "pino": "^8.7.0"
     }
 }
