@@ -1,9 +1,0 @@
-{
-  "private": true,
-  "dependencies": {
-    "@octokit/webhooks": "^10.1.5",
-    "dotenv": "^16.0.2",
-    "fastq": "^1.13.0",
-    "loglevel": "^1.8.0"
-  }
-}
