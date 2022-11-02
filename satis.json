@@ -55,10 +55,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/xenyo/eduhk_eo_theme"
-        },
-        {
-            "type": "vcs",
-            "url": "https://git.drupalcode.org/project/dependency_status"
         }
     ]
 }
