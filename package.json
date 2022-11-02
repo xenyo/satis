@@ -4,7 +4,6 @@
         "bootstrap": "^5.2.2",
         "date-fns": "^2.29.3",
         "eslint-webpack-plugin": "^3.2.0",
-        "husky": "^7.0.4",
         "lint-staged": "^12.5.0",
         "prettier": "^2.7.1",
         "sass": "^1.55.0",
@@ -16,7 +15,6 @@
         "npm": ">=7.0"
     },
     "scripts": {
-        "prepare": "husky install",
         "dev-server": "encore dev-server",
         "dev": "encore dev",
         "watch": "encore dev --watch",
