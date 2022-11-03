@@ -10,6 +10,18 @@
     "repositories": [
         {
             "type": "vcs",
+            "url": "https://github.com/xenyo/eduhk"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xenyo/eduhk_eo_theme"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xenyo/eduhk_theme"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/xenyo/fontawesome"
         },
         {
@@ -18,7 +30,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/xenyo/uni-tools"
+            "url": "https://github.com/xenyo/uni"
         },
         {
             "type": "vcs",
@@ -26,15 +38,7 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/xenyo/uni_module_template"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/xenyo/uni_theme_template"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/xenyo/uni"
+            "url": "https://github.com/xenyo/uni-tools"
         },
         {
             "type": "vcs",
@@ -42,19 +46,15 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/xenyo/uni_module_template"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/xenyo/uni_theme"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/xenyo/eduhk"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/xenyo/eduhk_theme"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/xenyo/eduhk_eo_theme"
+            "url": "https://github.com/xenyo/uni_theme_template"
         }
     ]
 }
