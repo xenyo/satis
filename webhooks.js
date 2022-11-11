@@ -1,4 +1,4 @@
-const { queue, server, webhooks, logger } = require('github-webhooks-exec');
+const { webhooks, queue, logger } = require('github-webhooks-exec');
 
 webhooks.on('push', event => {
   // Pull and trigger full build if Satis is updated
@@ -30,6 +30,3 @@ webhooks.on('push', event => {
   const url = new URL(event.payload.repository.url).toString();
   queue.push(`bin/satis build --repository-url ${url}`);
 });
-
-server.listen(process.env.GITHUB_WEBHOOKS_PORT);
-logger.info('Ready');
