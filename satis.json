@@ -10,6 +10,10 @@
     "repositories": [
         {
             "type": "vcs",
+            "url": "https://github.com/xenyo/choices"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/xenyo/eduhk"
         },
         {
