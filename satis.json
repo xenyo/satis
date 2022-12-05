@@ -18,6 +18,10 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/xenyo/eduhk_eo"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/xenyo/eduhk_eo_theme"
         },
         {
