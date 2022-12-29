@@ -79,6 +79,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/xenyo/uni_toolbar"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xenyo/tony_test_uni_module"
         }
     ]
 }
