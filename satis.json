@@ -82,6 +82,10 @@
         },
         {
             "type": "vcs",
+            "url": "https://github.com/xenyo/uni_info_day_module"
+        },
+        {
+            "type": "vcs",
             "url": "https://github.com/xenyo/tony_test_uni_module"
         }
     ]
