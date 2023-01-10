@@ -87,6 +87,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/xenyo/tony_test_uni_module"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xenyo/polyu_study_profile"
         }
     ]
 }
