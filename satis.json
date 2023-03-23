@@ -107,6 +107,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/xenyo/swiper"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/xenyo/jupas_calculator"
         }
     ]
 }
