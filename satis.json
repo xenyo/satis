@@ -106,10 +106,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/xenyo/jupas_calculator"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/xenyo/tailwind_jit"
         }
     ]
