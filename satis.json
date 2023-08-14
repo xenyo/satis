@@ -58,10 +58,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/xenyo/uni-tools"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/xenyo/uni_admin"
         },
         {
